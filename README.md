@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/HuskyNZ/peter-v2">
+  <a href="https://github.com/SpectrumPro/Spectrum-Website/">
     <img src="" alt="Logo" width="80" height="80">
   </a>
 
