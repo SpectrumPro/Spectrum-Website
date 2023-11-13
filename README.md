@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/HuskyNZ/peter-v2">
-    <img src="https://serv.hnz.li/logo/default.png" alt="Logo" width="80" height="80">
+    <img src="" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Spectrum Website</h3>
@@ -37,11 +37,13 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MPL License. See [LICENSE](https://github.com/SpectrumPro/Spectrum-Website/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/SpectrumPro/Spectrum-Website/blob/master/LICENSE) for more information.
 
 ## Authors
 
+* [Liam](https://liamsherwin.tech/)
 * [HuskyNZ](https://www.husky.nz)
+* [Finn](https://finn.nz)
 
 ## Acknowledgements
 
