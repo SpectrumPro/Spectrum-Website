@@ -10,7 +10,7 @@ export const metadata = {
   title: "Spectrum",
   description:
     "Spectrum",
-  metadataBase: new URL("https://precedent.dev"),
+  metadataBase: new URL("https://spectrum.liamsherwin.tech/"),
   themeColor: "#FFF",
 };
 
