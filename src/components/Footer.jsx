@@ -2,6 +2,12 @@ import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
+import { useState } from "react";
+import { motion } from "framer-motion";
+
+import { InvitationModal } from "./InvitationModal";
+
+
 
 const footerData = [
   {
@@ -25,7 +31,9 @@ const footerData = [
   },
 ];
 
+
 export const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <footer>
       <div className="pt-10  lg:pt-20 lg:pb-12 bg-customDarkBg1 radius-for-skewed ">
@@ -39,11 +47,43 @@ export const Footer = () => {
                 <div className="text-white font-['Inter'] font-bold text-xl">
                   Spectrum
                 </div>
+                
               </div>
+              
             </div>
-          </div>
-          <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2023. MPL license.
+            <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
+              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
+                <h3 className="mb-6 text-2xl font-bold text-white"></h3>
+                <ul>
+            
+                </ul>
+              </div>
+              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
+                <h3 className="mb-6 text-2xl font-bold text-white">
+                </h3>
+                <ul>
+                
+                </ul>
+              </div>
+              <div className="w-full md:w-1/3 lg:w-auto">
+                <div
+                  className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+                  onClick={() => setIsModalOpen(true)}
+                >
+                Download
+                </div>
+                {isModalOpen && (
+                  <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
+                )}
+                <ul>
+               
+                </ul>
+              </div>
+              </div>
+              </div>
+              
+              <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
+            Spectrum Website &copy;  <a href="https://www.husky.nz">HuskyNZ</a> |  Spectrum, it's Assets, Images, and Code is Copyrighted &copy; <a href="https://liamsherwin.tech">Liam Sherwin</a> (Unless otherwise specified)
           </p>
         </div>
       </div>

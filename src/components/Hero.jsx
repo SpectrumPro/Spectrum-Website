@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 
-export const Dashbord = "https://raw.githubusercontent.com/SpectrumPro/Spectrum/master/.github/1.png"
+export const Dashbord = "https://serv.hnz.li/spectrum/screenshots/v2-spectrum.png"
 
 
 export const Hero = () => {
@@ -34,7 +34,7 @@ export const Hero = () => {
             <span className="hidden md:inline"> Realtime node based DMX lighting engine </span>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-            for developers
+            
           </div>
         </motion.div>
         <motion.div
