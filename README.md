@@ -9,7 +9,7 @@
 
 </p>
 
-![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=spectrum-website) ![Contributors](https://img.shields.io/github/contributors/HuskyNZ/peter-v2?color=dark-green) ![GitHub issues](https://img.shields.io/github/issues/SpectrumPro/Spectrum-Website) ![GitHub License](https://img.shields.io/github/license/SpectrumPro/Spectrum-Website)
+![Contributors](https://img.shields.io/github/contributors/HuskyNZ/peter-v2?color=dark-green) ![GitHub issues](https://img.shields.io/github/issues/SpectrumPro/Spectrum-Website) ![GitHub License](https://img.shields.io/github/license/SpectrumPro/Spectrum-Website)
 
 ## About The Project
 
@@ -17,7 +17,7 @@ Offical Spectrum website, made with NextJS
 
 ## Built With
 
-* [NextJS](https://nextjs.org/)
+* [Astro](https://astro.build/)
 * [Tailwind](https://tailwindcss.com/)
 * [Vercel](https://vercel.com/)
 * [Cloudlfare](https://www.cloudflare.com/)
@@ -37,15 +37,16 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/SpectrumPro/Spectrum-Website/blob/master/LICENSE) for more information.
+Distributed under the MPL License. See [LICENSE](https://github.com/SpectrumPro/Spectrum-Website/blob/master/LICENSE) for more information.
 
 ## Authors
 
-* [Liam](https://liamsherwin.tech/)
-* [HuskyNZ](https://www.husky.nz)
-* [Finn](https://finn.nz)
+[<img src="https://serv.hnz.li/logo/default.png" width="60px;"/>](https://github.com/HuskyNZ) - The Website, CDN, Cloudflare
+
+[<img src="https://github.com/not-my-username.png" width="60px;"/>](https://github.com/not-my-username) - Spectrum
+
+Spectrum, it's Assets, Images, and Code is Copyrighted © [Liam Sherwin](https://liamsherwin.tech) (Unless otherwise specified)
 
 ## Acknowledgements
 
 * [Cloudflare](https://cloudflare.com)
-* [Vercel](https://vercel.com)
