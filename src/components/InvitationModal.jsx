@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 import { CloseIcon } from "../assets/icons/CloseIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+
 
 export const InvitationModal = ({ setIsOpen }) => (
   <AnimatePresence>
@@ -23,56 +23,73 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                Subscribe Now
+                Download Now
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
-                Winter is coming
+                
               </h2>
 
               <ul className="mb-6 text-white mt-12">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>Free</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>Open Source</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>Modular</span>
                 </li>
               </ul>
             </div>
             <div className="w-full lg:w-1/2 flex items-center flex-col justify-center pt-24 sm:pt-0">
               <div className="flex inline lg:hidden justify-start items-center grow basis-0 mb-8 pr-6">
                 <div className="text-white mr-2 text-8xl">
-                  <TailcastLogo />
+                <img src="https://serv.hnz.li/spectrum/logo/default.png" width={50} height={50}></img>
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-3xl">
-                  Tailcast
+                  Spectrum
                 </div>
               </div>
 
               <h3 className="mb-7 text-2xl text-white font-bold leading-snug text-center">
-                Join 3,953 other developers
+                
               </h3>
-              <div className="flex flex-wrap -m-2">
-                <div className="w-full sm:w-4/5 p-2 mx-auto">
-                  <input
-                    className="px-4 py-4 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border bg-gray-300 border-gray-300 rounded-lg focus:ring focus:ring-indigo-300"
-                    id="newsletterInput3-1"
-                    type="text"
-                    placeholder="Your email address"
-                  />
-                </div>
+              <div className="flex flex-wrap m-2">
+              
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                  <form method="get" action="https://github.com/SpectrumPro/Spectrum/releases/download/V0.2.0/Spectrum.V0.2.0.Windows.x86_64.exe.zip">
                   <button
-                    className="py-4 px-6 w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
-                    type="button"
+                    className="py-4 px-6 text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
+                    type="submit"
                   >
-                    Join Now
+                   Windows
                   </button>
+                  </form>
+                </div>
+
+                <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                  <form method="get" action="https://github.com/SpectrumPro/Spectrum/releases/download/V0.2.0/Spectrum.V0.2.0.Linux.x86_64.zip">
+                    <button
+                      className="py-4 px-6 text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
+                      type="submit"
+                    >
+                      Linux
+                    </button>
+                  </form>
+                </div>
+
+                <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
+                  <form method="get" action="https://github.com/SpectrumPro/Spectrum/releases/download/V0.2.0/Spectrum.V0.2.0.MacOS.x86_64.dmg">
+                    <button
+                      className="py-4 px-6 text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7274f3] transition ease-in-out duration-200"
+                      type="submit"
+                    >
+                      Mac OS
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
