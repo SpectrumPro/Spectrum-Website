@@ -4,6 +4,7 @@ import feature5 from "../assets/images/feature5.jpg";
 import feature6 from "../assets/images/feature6.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
+
 export const Features2 = () => (
   <section className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4">
     <motion.div
@@ -17,14 +18,14 @@ export const Features2 = () => (
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
-                src={feature5}
+                src="https://raw.githubusercontent.com/SpectrumPro/Spectrum/master/.github/2.png"
                 alt="f1"
                 className="rounded-xl  custom-border-gray"
               />
             </div>
             <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
               <img
-                src={feature6}
+                src="https://raw.githubusercontent.com/SpectrumPro/Spectrum/dev/.github/Capure.PNG"
                 alt="f2"
                 className="rounded-xl  custom-border-gray"
               />
@@ -35,28 +36,34 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Make Data-Driven Decisions
+              
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              Node based for ease of use
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Monitor and track data issues with ease using our intuitive and
-              efficient issue tracking system. Stay ahead of potential problems
-              and improve your workflow.
+              The end goal is a all in one program that ties into StageSync to help you run live productions
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Collaborative environment</span>
+                <span>Node-Based Control: Design your lighting effects using a visual node graph, making it easy to create, modify, and organize DMX control logic.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Smart issue categorization</span>
+                <span>Real-Time Preview (Comeing Soon!): See your lighting effects come to life with a real-time preview, ensuring that your vision is accurately translated to the final result.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Customizable notifications</span>
+                <span>Modular Architecture: Build and customize your lighting setups by connecting modular nodes, providing flexibility and adaptability to suit various scenarios.</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon />
+                <span>DMX Integration: Spectrum seamlessly integrates with DMX hardware, offering precise control over a wide range of lighting fixtures for concerts, events, installations, and more.</span>
+              </li>
+              <li className="mb-4 flex">
+                <CheckArrowIcon />
+                <span>Art-Net Support: Spectrum supports Art-Net, allowing for efficient communication with a variety of DMX devices over Ethernet.</span>
               </li>
             </ul>
           </div>
