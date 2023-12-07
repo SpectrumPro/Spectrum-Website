@@ -39,31 +39,31 @@ export const Features2 = () => (
               
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Node based for ease of use
-            </h2>
+              The Ultimate DMX Controller              
+              </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              The end goal is a all in one program that ties into StageSync to help you run live productions
+              Spectrum is the most sophisticated DMX controller you've ever encountered. (well, it will be, once we finish it)
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Node-Based Control: Design your lighting effects using a visual node graph, making it easy to create, modify, and organize DMX control logic.</span>
+                <span>Node-Based Control: Easily design your lighting effects using a visual node system that simplifies creating and organizing DMX control logic.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Real-Time Preview (Comeing Soon!): See your lighting effects come to life with a real-time preview, ensuring that your vision is accurately translated to the final result.</span>
+                <span>Real-Time Previews (Coming Soon!): Preview your lighting effects in real-time, ensuring your creative vision aligns with the final result.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Modular Architecture: Build and customize your lighting setups by connecting modular nodes, providing flexibility and adaptability to suit various scenarios.</span>
+                <span>Flexible Architecture: Customize your lighting setups by connecting modular nodes, providing adaptability to suit various scenarios.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>DMX Integration: Spectrum seamlessly integrates with DMX hardware, offering precise control over a wide range of lighting fixtures for concerts, events, installations, and more.</span>
+                <span>DMX Integration: Spectrum seamlessly works with DMX hardware, offering precise control over a wide range of lighting fixtures for concerts, events, installations, and more.</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Art-Net Support: Spectrum supports Art-Net, allowing for efficient communication with a variety of DMX devices over Ethernet.</span>
+                <span>Art-Net Support: Spectrum supports Art-Net, enabling efficient communication with a variety of DMX devices over Ethernet.</span>
               </li>
             </ul>
           </div>

@@ -3,24 +3,25 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Is it Production Ready?",
+    question: "When Will It Be Ready?",
     answer:
-      "No, The app is still in very early develomnt.",
+      "We don't know. The current version of Spectrum is still in early development, and will undergo huge changes in the coming months. We are hoping to release version 1.0 sometime in February 2024.",
   },
   {
-    question: "What is the app built in?",
+    question: "Whats It Made With?",
     answer:
-      "The app is built useing godot.",
+      "Spectrum is built using the Godot game engine. Why? Check out this post on my blog to learn why I made this decision: ",
+    link:"https://blog.liamsherwin.tech/blog/why-godot"
   },
   {
-    question: "What OS support is there?",
+    question: "What Platforms Are Supported?",
     answer:
-      "Spectrum supports Mac os, Windows, and Linux.",
+      "Spectrum supports macOS, Windows, and Linux. Android and iOS support will soon be coming, allowing for remote control. iOS support will only be available on devices that support sideloading.",
   },
   {
-    question: "How do I install spectrum",
+    question: "How Do I Install Spectrum?",
     answer:
-      "Just download the zip for your platform and run it. For Windows there is a installer",
+    "Simply download the binary for your platform and execute it. If you're using Windows, we've also provided a Download the binary for your platform and run it. For Windows users, we also offer an installer.    ."
   },
 ];
 
@@ -47,6 +48,7 @@ export const FAQ = () => (
                 <FAQBox
                   title={item.question}
                   content={item.answer}
+                  link={item?.link}
                   key={`${item.question}-${item.answer}`}
                   defaultOpen={index === 0}
                 />
@@ -59,7 +61,7 @@ export const FAQ = () => (
   </section>
 );
 
-const FAQBox = ({ defaultOpen, title, content }) => {
+const FAQBox = ({ defaultOpen, title, content, link }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
@@ -72,12 +74,18 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           {title}
         </h3>
         <p
-          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden ${
-            isOpen ? "max-h-96" : "max-h-0"
-          }`}
+          className={`text-customGrayText pt-4 transition-all duration-300 overflow-hidden inline-block ${isOpen ? "max-h-96" : "max-h-0"
+            }`}
         >
           {content}
+          <a href={link} className=" hover:underline">
+          {
+            link
+          }
+          </a>
+          
         </p>
+
       </div>
       <div className="absolute top-6 right-4 sm:top-8 sm:right-8">
         <svg
@@ -86,9 +94,8 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           viewBox="0 0 20 20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className={`transition-all duration-500  ${
-            isOpen ? "rotate-[180deg]" : "rotate-[270deg]"
-          }`}
+          className={`transition-all duration-500  ${isOpen ? "rotate-[180deg]" : "rotate-[270deg]"
+            }`}
         >
           <path
             d="M4.16732 12.5L10.0007 6.66667L15.834 12.5"
