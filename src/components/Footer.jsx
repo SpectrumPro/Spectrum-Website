@@ -82,7 +82,7 @@ export const Footer = () => {
               </div>
               </div>
               
-              <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
+              <p className="text-center text-sm text-gray-400 lg:border-t border-[rgb(255,255,255,0.2)] lg:pt-12 lg:mt-16 md:pb-5 lg:block">
             Spectrum Website &copy;  <a href="https://www.husky.nz">HuskyNZ</a> |  Spectrum, it's Assets, Images, and Code is Copyrighted &copy; <a href="https://liamsherwin.tech">Liam Sherwin</a> (Unless otherwise specified)
           </p>
         </div>
