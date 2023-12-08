@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "../components/Hero.jsx";
 import { Navbar } from "../components/Navbar.jsx";
-import { Features1 } from "../components/Features1.jsx";
+// import { Features1 } from "../components/For future use/Features1.jsx";
 import { Features2 } from "../components/Features2.jsx";
 // import { Testimonials } from "../components/Testimonials.jsx";
 import { FeaturesDiagonal } from "../components/FeaturesDiagonal.jsx";
@@ -16,6 +16,21 @@ import "../styles/Theme.css";
 import "../styles/Diagonals.css";
 
 ---
+
+<head>
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="author" content="Liam Sherwin | HuskyNZ">
+
+  <meta property="og:title" content="Spectrum">
+  <meta property="og:description" content="Realtime node based DMX lighting engine">
+  <meta property="og:image" content="https://serv.hnz.li/spectrum/screenshots/v2-spectrum.png">
+
+  <!-- Twitter Card Tags for Twitter -->
+  <meta name="twitter:card" content="https://serv.hnz.li/spectrum/screenshots/v2-spectrum.png">
+  <meta name="twitter:title" content="Spectrum">
+  <meta name="twitter:description" content="Realtime node based DMX lighting engine">
+  <meta name="twitter:image" content="https://serv.hnz.li/spectrum/screenshots/v2-spectrum.png">
+</head>
 
 <Layout title="Spectrum">
   <Navbar client:load />

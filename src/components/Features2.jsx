@@ -19,14 +19,14 @@ export const Features2 = () => (
             <div className=" mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
                 src="https://raw.githubusercontent.com/SpectrumPro/Spectrum/master/.github/2.png"
-                alt="f1"
+                alt="Dmx software with sliders"
                 className="rounded-xl  custom-border-gray"
               />
             </div>
             <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
               <img
                 src="https://raw.githubusercontent.com/SpectrumPro/Spectrum/dev/.github/Capure.PNG"
-                alt="f2"
+                alt="node based dmx software"
                 className="rounded-xl  custom-border-gray"
               />
             </div>
