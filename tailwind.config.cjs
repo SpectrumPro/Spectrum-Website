@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+   
       colors: {
         customPrimary: "rgb(99, 102, 241)",
         customSecondary: "rgb(161, 163, 247)",
