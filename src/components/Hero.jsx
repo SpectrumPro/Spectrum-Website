@@ -30,8 +30,8 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden"> Realtime node based DMX lighting engine </span>
-            <span className="hidden md:inline"> Realtime node based DMX lighting engine </span>
+            <h1 className="inline md:hidden"> Realtime node based DMX lighting engine </h1>
+            <h1 className="hidden md:inline"> Realtime node based DMX lighting engine </h1>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
             
