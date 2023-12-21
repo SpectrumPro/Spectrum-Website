@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 
-export const Dashbord = "https://serv.hnz.li/spectrum/screenshots/v2-spectrum.png"
+export const Dashbord = "https://serv.husky.nz/spectrum/screenshots/Screen_Shot_2023-12-21_at_10.51.50_PM.png"
 
 
 export const Hero = () => {
