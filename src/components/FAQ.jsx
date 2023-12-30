@@ -5,7 +5,7 @@ const FAQData = [
   {
     question: "When Will It Be Ready?",
     answer:
-      "We don't know. The current version of Spectrum is still in early development, and will undergo huge changes in the coming months. We are hoping to release version 1.0 sometime in February 2024.",
+      "We don't know. The current version of Spectrum is still in early development, and will undergo huge changes in the coming months. We are aiming to release version 1.0 sometime in February 2024.",
   },
   {
     question: "Whats It Made With?",
@@ -21,7 +21,7 @@ const FAQData = [
   {
     question: "How Do I Install Spectrum?",
     answer:
-    "Simply download the binary for your platform and execute it. If you're using Windows, we've also provided a Download the binary for your platform and run it. For Windows users, we also offer an installer.    ."
+    "Simply download the binary for your platform and execute it. For Windows users, we also offer an installer."
   },
 ];
 
